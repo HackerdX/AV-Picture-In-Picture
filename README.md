@@ -1,4 +1,4 @@
-# Picture In Picture (PiP) mode
+# Picture In Picture (PiP) mode(Desktop only)
 
 1) Select any video from the prompt you got to enter it into PIP.
 2) After selecting video, get over to the tab and click on start button (your video will enter into pip mode).
