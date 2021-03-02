@@ -5,16 +5,19 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Picture In Picture</title>
     <link rel="icon" type="img/png" href="https://www.google.com/s2/u/0/favicons?domain=css-tricks.com">
-    
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
     <!-- Video -->
     <video id="video" controls height="320" width="640" hidden></video>
     <!-- Button -->
-    <div class="button-container">
-        <img src="on-off-button.svg" id="button" alt="start">
-    </div>
+        <label id="button">
+            <input type="checkbox" name="power" id="checker">
+            <span class="btn"></span>
+            <i class="fa fa-power-off"></i>
+        </label>
+    
     <!-- Script -->
     <script src = "script.js"></script>
 </body>
